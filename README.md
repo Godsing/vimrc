@@ -25,3 +25,7 @@
 5. 你可能还需要把 `vimrc` 文件中「[文件开头模板](./vimrc#L678)」里的 Author 和 Mail 换成自己的；
 6. 如果需要查看部分重要插件的中文说明，可以到[部分插件说明.md](./部分插件说明.md)查阅；
 7. 如果你使用的是 neovim，那么可能还需要参考[nvim-from-vim](https://neovim.io/doc/user/nvim.html#nvim-from-vim)进行一下简单的配置；
+
+## 注意
+
+- Vim 的 `<Leader>` 键被绑定为 `;`
