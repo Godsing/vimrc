@@ -4,7 +4,11 @@
 call plug#begin('~/.vim/plugged')
 " Plug 'madox2/vim-ai'
 " Plug 'github/copilot.vim'                  " GitHub Copilot for AI-assisted coding
-Plug 'preservim/nerdtree'                    " A file system explorer
+Plug 'nvim-neo-tree/neo-tree.nvim', { 'branch': 'v3.x' } " file/directory tree
+Plug 'nvim-lua/plenary.nvim'                 " dependency for neo-tree
+Plug 'nvim-tree/nvim-web-devicons'           " dependency for neo-tree
+Plug 'MunifTanjim/nui.nvim'                  " dependency for neo-tree
+Plug '3rd/image.nvim'                        " dependency for neo-tree
 Plug 'ervandew/supertab'                     " Enhanced tab completion
 Plug 'easymotion/vim-easymotion'             " Quick cursor movement
 Plug 'nathanaelkane/vim-indent-guides'       " Display indent guides
