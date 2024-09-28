@@ -176,7 +176,7 @@ catch
 endtry
 
 " 打开 ~/tmp 用于快速记录点东西
-map <leader>tmp :tabnew ~/tmp<cr>
+nmap <leader>tmp :tabnew ~/tmp<cr>
 
 " => Buffer
 " 垂直(线)分屏打开buffer
@@ -399,7 +399,6 @@ let g:ale_linters = {
     \   'python': ['pyright', 'jedils'],
     \   'cpp': ['gcc', 'ccls', 'cppcheck'],
     \}
-nmap <silent> <Leader>a <Plug>(ale_next_wrap)
 
 " Fixing:
 let g:ale_fixers = {
