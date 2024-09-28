@@ -364,17 +364,17 @@ nmap <Leader><Leader>k <Plug>(easymotion-k)
 
 
 "=============================
-" => Plugin: neo-tree
+" => Plugin: NERDTree
 "=============================
-nmap <Leader>b :Neotree<CR>
+nmap <Leader>b :NERDTreeToggle<CR>
 
-function! TryToggleNeotree()
+function! TryToggleNERDTree()
     if argc() == 0 || (argc() == 1 && isdirectory(argv(0)))
-        Neotree
+        NERDTreeToggle
     endif
 endfunction
 
-autocmd VimEnter * call TryToggleNeotree()
+autocmd VimEnter * call TryToggleNERDTree()
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Git gutter (Git diff)
