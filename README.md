@@ -14,7 +14,7 @@
    ```bash
    ln -snf /your/downloaded/path/to/vimrc/vimrc ~/.vimrc
    ```
-3. 安装 (Vim-Plug)[https://github.com/junegunn/vim-plug]:
+3. 安装 [Vim-Plug](https://github.com/junegunn/vim-plug):
    ```bash
    curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
    ```
